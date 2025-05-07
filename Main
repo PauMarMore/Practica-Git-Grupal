@@ -13,7 +13,7 @@ if numero2 != 0:
 else:
     division = "No se puede dividir entre cero"
 
-# Mostrar los resultados
+# Mostrar los resultados :)
 print("La suma de los números es:", suma)
 print("La resta de los números es:", resta)
 print("La multiplicación de los números es:", multiplicacion)
