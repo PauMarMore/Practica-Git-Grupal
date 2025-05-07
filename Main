@@ -2,10 +2,19 @@
 numero1 = float(input("Ingresa el primer número: "))
 numero2 = float(input("Ingresa el segundo número: "))
 
-# Realizar la suma y la resta
+# Realizar la suma, resta, multiplicación y división :)
 suma = numero1 + numero2
 resta = numero1 - numero2
+multiplicacion = numero1 * numero2
 
-# Mostrar los resultados
+# Evitar división por cero
+if numero2 != 0:
+    division = numero1 / numero2
+else:
+    division = "No se puede dividir entre cero"
+
+# Mostrar los resultados :)
 print("La suma de los números es:", suma)
 print("La resta de los números es:", resta)
+print("La multiplicación de los números es:", multiplicacion)
+print("La división de los números es:", division)
